@@ -1,0 +1,11 @@
+apiVersion: v2
+name: my-app
+version: 1.0.0
+appVersion: 1.0
+description: A Helm chart for deploying a Next.js frontend app and a Golang backend app
+maintainers:
+- name: Nator Verinumbe
+  email: natorverinumbe@gmail.com
+home: https://talentplus.com
+sources:
+- https://github.com/iamnator/devOps-tasks-talentPlus
