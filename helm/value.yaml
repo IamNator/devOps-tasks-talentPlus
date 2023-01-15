@@ -1,4 +1,4 @@
-image:
+frontend_image:
   repository: <aws_registry>/nextjs-app
   tag: v1.0
   
