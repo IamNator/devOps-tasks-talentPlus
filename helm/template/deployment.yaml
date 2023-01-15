@@ -20,3 +20,17 @@ spec:
         env:
         - name: API_URL
           value: "http://{{ .Release.Name }}-backend.{{ .Release.Namespace }}.svc.cluster.local"
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: {{ .Release.Name }}-backend
+  template:
+    metadata:
+      labels:
+        app: {{ .Release.Name }}-backend
