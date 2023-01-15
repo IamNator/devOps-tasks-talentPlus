@@ -1,7 +1,0 @@
-image:
-  repository: <aws_registry>/nextjs-app
-  tag: v1.0
-  
-backend_image:
-  repository: <aws_registry>/golang-app
-  tag: v1.0
